@@ -1,0 +1,7 @@
+
+The site is unresponsive and static, and lacks accessable features. To fix this:
+Redesign site to a cohesive, navigable theme.
+Make site mobile-freindly by adding resizing elements.
+Add alt tags and descriptive texts.
+
+Since this site is most likely desktop-centric, a more mobile-focused, trimmed down portal that presents the most immediate information mobile users want is reccomended.
