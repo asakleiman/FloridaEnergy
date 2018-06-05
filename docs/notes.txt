@@ -1,3 +1,0 @@
-Used to format the data for insertion into javascript
-https://docs.google.com/spreadsheets/d/1PulHYDqlTFZSSHXMNHXAA4gyz8FX1tcUUfB2RdgV8pc/edit?usp=sharing
-
