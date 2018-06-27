@@ -1,0 +1,132 @@
+/* Scss Document */
+body {
+  font-size: 100%;
+  color: #1A1A1A;
+  margin: none; }
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  color: #1A1A1A;
+  padding: 0rem;
+  line-height: 1.7; }
+
+h1 h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif; }
+
+main {
+  margin: 0rem 5rem 0rem 5rem; }
+
+@media only screen and (max-width: 480px) {
+  main {
+    margin: 0rem 1rem 0rem 1rem; } }
+a {
+  font-family: 'Open Sans', sans-serif; }
+
+a.biglink {
+  color: red; }
+
+.mainTopic {
+  text-align: center; }
+
+/***************** HEADER ***************/
+/* green background for inital header position, also keeps it from eating content */
+header {
+  background-color: #00784B;
+  position: static;
+  min-width: 1280px;
+  max-height: 250px;
+  min-height: 250px; }
+
+/* add a shaped floating header */
+.float-header {
+  position: fixed;
+  min-width: 2280px;
+  max-height: 250px;
+  min-height: 250px;
+  color: #FFFFFF;
+  background-color: #263995;
+  padding: 3rem;
+  -webkit-mask-image: url("../images/windmill_mask.svg");
+  mask-image: url("../images/windmill_mask.svg");
+  -webkit-mask-size: 800px 250px;
+  mask-size: 800px 250px; }
+
+.nav-text {
+  margin-top: 1rem;
+  position: relative;
+  display: flex; }
+
+.logo-text {
+  position: relative; }
+
+.float-header a {
+  padding: 1rem; }
+
+/* Footer */
+footer {
+  background-color: #00784B;
+  padding: 2rem;
+  margin: 1.5rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: .8em; }
+
+/* Grid styling */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px; }
+
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%; }
+
+.previewContainer {
+  text-align: center; }
+  .previewContainer a {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00784B;
+    color: #FFFFFF;
+    padding: .8rem 1rem .8rem 1rem;
+    text-decoration: none;
+    border-radius: .3rem; }
+
+.col:first-child {
+  margin-left: 0; }
+
+/*  grouping  */
+.group:before,
+.group:after {
+  content: "";
+  display: table; }
+
+.group:after {
+  clear: both; }
+
+.group {
+  zoom: 1;
+  /* For IE 6/7 */ }
+
+/*  Grid widths */
+.span_3_of_3 {
+  width: 100%; }
+
+.span_2_of_3 {
+  width: 66.13%; }
+
+.span_1_of_3 {
+  width: 32.26%; }
+
+/* Go full width when narrow. RESPONSIVENESS YAY */
+@media only screen and (max-width: 480px) {
+  .col {
+    margin: 1% 0 1% 0%; }
+
+  .span_3_of_3, .span_2_of_3, .span_1_of_3 {
+    width: 100%; } }
+
+/*# sourceMappingURL=main.css.map */

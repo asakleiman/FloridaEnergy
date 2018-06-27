@@ -1,0 +1,69 @@
+<!doctype html>
+<!-- For Educational Purposes Only -->
+<html lang="en"><head>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!-- W3.CSS -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="styles/main.css"> 
+  <!-- VUE.js -->
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>  
+  <title>Florida Energy Systems Consortium - Home</title>  
+</head>
+<body>
+<div id="app">
+    <!-- VUE Header -->
+    <app-header></app-header>
+
+    <!-- Why won't this work as part of the vue.js? -->
+    <header></header>
+    <main>  
+      <section class="mainTopic">
+        <p>The overall twin goals of the FESC Outreach effort are to increase Florida’s energy use efficiency and to measurably reduce its emissions of greenhouse gases. Dr. Pierce Jones, Professor & Director, Program for Resources Efficient Communities, UF, leads outreach through his experience with the Florida Cooperative Extension Service.
+
+        Educational materials and programs developed by FESC are based on energy and climate research findings and analysis conducted at Florida’s state universities as well as national sources. Outreach programs are designed to deliver practical, applicable information and knowledge to targeted groups including: the general public, professionals, local officials and state policymakers.
+        
+        FESC is currently developing plans to leverage the existing network of extension offices to reach out to each of our communities. The Florida Cooperative Extension Service has experience developing and delivering educational programs and products related to energy- and resource-efficient community development with emphasis on housing. These programs and products include targeted continuing education courses for licensed builders, architects, engineers, landscape architects, interior designers, and others, and can be found under the Education section of this website. Also, the UF Program for Resource Efficient Communities is an interdisciplinary group that promotes the adoption of best design, construction, and management practices in new residential master planned developments. FESC will work with these existing networks to provide programming on efficient use of energy and alternative energy generation methods to the general public as well as targeted to specific audiences such as builders, land planners, solar panel installers, and architects.
+        </p>
+      </section>
+    </main>
+  
+  <!-- Vue Footer-->
+  <app-footer></app-footer>
+ 
+  <script src="js/components.js"></script>
+
+  <script>
+    //Twitter share button
+    window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+      
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+      return t;
+    }(document, "script", "twitter-wjs"));
+
+    // Facebook share button 
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+</div>
+</body>
+</html>

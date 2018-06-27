@@ -1,11 +1,93 @@
-<!DOCTYPE html>
-
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <!-- meta viewport -->
-  <title>Florida Energy</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+<!doctype html>
+<!-- For Educational Purposes Only -->
+<html lang="en"><head>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- facebook tags -->
+  <meta property="og:title" content="Florida Energy Systems Consortium">
+  <meta property="og:description" content="The goal of the consortium is to become a world leader in energy research, education, technology, and energy systems analysis.">
+  <meta property="og:image" content="https://asakleiman.github.io/FloridaEnergyProject/images/fesc-logo.jpg">
+  <meta property="og:image:width" content="113">
+  <meta property="og:image:height" content="99">
+  <meta property="og:url" content="https://asakleiman.github.io/FloridaEnergyProject/">
+  <meta property="og:type" content="website">
+  <!-- twitter tags -->
+  <meta name="twitter:title" content="Florida Energy Systems Consortium (FESC)">
+  <meta name="twitter:description" content="The goal of the consortium is to become a world leader in energy research, education, technology, and energy systems analysis.">
+  <meta name="twitter:image" content="https://asakleiman.github.io/FloridaEnergyProject/images/fesc-logo.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!-- W3.CSS -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="styles/main.css"> 
+  <!-- VUE.js -->
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>  
+  <title>Florida Energy Systems Consortium - Home</title>  
 </head>
 <body>
+<div id="app">
+  <!-- VUE Header -->
+  <app-header></app-header>
+  
+  <!-- Why won't this work as part of the vue.js? -->
+  <header></header>
+  <!-- Begin responsive grid system -->
+  <main>  
+    <section class="mainTopic">
+      <h3>About FESC</h3>
+      <p>The Florida Energy Systems Consortium (FESC) was created by the Florida State government to promote collaboration among the energy experts at its 12 supported universities to share energy-related expertise. The consortium assists the state in the development and implementation of an environmentally compatible, sustainable, and efficient energy strategic plan. The Consortium was charged to ‘perform research and development on innovative energy systems that lead to alternative energy strategies, improved energy efficiencies, and expanded economic development for the state‘. The legislature appropriated funding for research at five of the universities as well as support for education, outreach, and technology commercialization. The Consortium reports to and provides guidance on an as needed basis to the Florida Legislature, Executive Office of the Governor, and the Florida’s Office of Energy housed in the Florida Department of Agriculture and Consumer Services.</p>
+    </section>
+    <div class="section group">
+      <div class="col span_1_of_3 previewContainer">
+        <a href="outreach.html">Outreach</a>
+        <p>Dr. Pierce Jones, Professor & Director, Program for Resources Efficient Communities, UF, leads outreach through his experience with the Florida Cooperative Extension Service</p>
+      </div>
+      <div class="col span_1_of_3 previewContainer">
+        <a href="production.html">Usage & Production</a>
+        <p>View historical generation and usage for the power in the state of Florida.</p>
+      </div>
+      <div class="col span_1_of_3 previewContainer">
+        <a href="education.html">Education</a>
+        <p>Florida’s State and Community Colleges offer an opportunity to develop a trained energy workforce through programming for two-year or four-year degrees.</p>
+      </div>
+    </div>
+  </main>	
+  
+  <!-- Vue Footer-->
+  <app-footer></app-footer>
+ 
+  <script src="js/components.js"></script>
+
+  <script>
+    //Twitter button  
+    window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+      
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+      return t;
+    }(document, "script", "twitter-wjs"));
+
+    // Facebook button 
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+</div>
 </body>
+</html>

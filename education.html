@@ -1,0 +1,70 @@
+<!doctype html>
+<!-- For Educational Purposes Only -->
+<html lang="en"><head>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!-- W3.CSS -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="styles/main.css"> 
+  <!-- VUE.js -->
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>  
+  <title>Florida Energy Systems Consortium - Home</title>  
+</head>
+<body>
+<div id="app">
+    <!-- VUE Header -->
+    <app-header></app-header>
+
+    <!-- Why won't this work as part of the vue.js? -->
+    <header></header>
+    <main>  
+      <section class="mainTopic">
+        <p>Florida’s utilities have predicted that the State’s energy use will increase significantly in the coming years. Energy efficiency and renewable energy generation are vital to meeting this demand. FESC’s statewide education program will produce a workforce trained to meet Florida’s energy needs. Explore the sub-menus on the left side of this page for Florida energy education opportunities sorted by discipline, institution, and degree program, along with training providers and other energy education-related resources.
+
+        FESC’s training and educational efforts are aimed at multiple levels of the career ladder: community college trained technicians, bachelors level students, graduate researchers, and practitioners who seek to update their existing skills. This statewide initiative is being distributed across partner institutions and capitalizes on each institution’s strengths to provide educational opportunities for both the conventional power generation industries and newly created energy related industries. New curricula in energy and coordinated programs across multiple universities is being developed to greatly expand the availability of energy education supporting existing and emerging energy industries in Florida. The program also includes components targeted to public and commercial sectors. For the commercial sector, the FESC Education Program is working closely with the Industrial Partners Program to ensure rapid dissemination of Center research results to this important constituent group.
+
+        The Education program has three focus areas, community college programming at the AS and certificate level, nuclear energy education, and a Masters degree in sustainable energy. FESC has also reached out to Florida’s youth through SAVE: Steps in Achieving Viable Energy. Part of Florida 4-H Youth Development, youths ages 11-13 learn what energy is, its different forms, how it is used, and how the world is impacted by energy use.
+
+        Florida’s State and Community Colleges offer an opportunity to develop a trained energy workforce through programming for two-year or four-year degrees.</p>
+      </section>
+    </main>
+  
+  <!-- Vue Footer-->
+  <app-footer></app-footer>
+ 
+  <script src="js/components.js"></script>
+
+  <script>
+    //Twitter share button
+    window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+      
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+      return t;
+    }(document, "script", "twitter-wjs"));
+
+    // Facebook share button 
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+</div>
+</body>
+</html>

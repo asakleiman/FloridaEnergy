@@ -1,5 +1,20 @@
-console.log("let's build some charts!")
-google.charts.load('current', {'packages':['corechart', 'bar', 'timeline']})
+
+
+// Load charting api from google
+google.charts.load('current', {'packages':['corechart', 'timeline']})
+
+// create request object for data
+let request = new XMLHttpRequest()
+// open a new connection
+
+// callback for when request completes
+
+// send the request
+
+// combine data objects into one object to display two lines on one chart
+
+
+// draw the chart
 
 google.charts.setOnLoadCallback(drawChart1);
 
