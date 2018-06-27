@@ -29,7 +29,7 @@ a.biglink {
 .mainTopic {
   text-align: center; }
 
-/***************** HEADER ***************/
+/* header */
 /* green background for inital header position, also keeps it from eating content */
 header {
   background-color: #00784B;

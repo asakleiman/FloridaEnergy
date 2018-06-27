@@ -1,5 +1,5 @@
 Vue.component('app-header', {
-  template: '<div class ="float-header"><div class="logo-text"><h2>Florida Energy Systems Consortium</h2></div><div class="nav-text"><a href="index.html">Home</a><a href="Outreach.html">Outreach</a><a href="education.html">Education</a><a href="production.html">Energy Consumption</a><a href="contact.html">Contact Us</a></br></div>'
+  template: '<div class ="float-header"><div class="logo-text"><h2>Florida Energy Systems Consortium</h2></div><div class="nav-text"><a href="index.html">Home</a><a href="Outreach.html">Outreach</a><a href="education.html">Education</a><a href="production.html">Energy Consumption</a><a href="contacts.html">Contact Us</a></br></div>'
 })
 
 Vue.component('app-footer', {
