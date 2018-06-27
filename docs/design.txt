@@ -1,0 +1,13 @@
+Florida Energy Consortium Redesign
+
+The goal is to create a simple, clean website more focused on presenting immediate data to the user. Simplicity and content-focused design to present organised, immedate information to the visitor.
+
+The state of the current website is cluttered and presents far too much information in a chaotic fashion. While deep information is good, it needs to be segemented and organised in such a way as to be efficently presented to each kind of user.
+
+There are three major categories of user visiting the site; industry, educators, and the public. They each need to be guided to the correct resources in a straightforward way. Creating narritive paths for each to follow will be key in presenting information in a clear manner; information relevent to multiple user-types can be re-presented in each category.
+
+If the entire breadth of data presented is to be retained in the final design, it might be advisable to completely segment the website into three seperate entities; FESC-Industry, which can present detailed technical information in a shallow and wide manner using technical terms; FESC-Education, which can present educational contacts first and link to FESC-Industry resoures for solid data, and FESC-Public, which will have a narrow and deep decision tree to gently introduce green energy novices to the concepts being presented.
+
+The site is also heavy on pictures, video and other data per page, and is not responsive to mobile use. Slimming down each page to decrease load time is going to be important, espeically on pages focused toward the public.
+
+Aesthetically, a modern, minimalist approach would help present more information without overwhelming the user. Whites, greens and blues to convey both cleanliness (white) clean energy (green) and the sky and water (blue), which represents solar, wind and hydro power. Modern linear shapes broken with gentle curves suggest futurusim, and a use of clean, san-serif fonts will bring a lightness and ariness to the design.
